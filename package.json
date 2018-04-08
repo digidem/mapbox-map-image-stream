@@ -1,6 +1,6 @@
 {
   "name": "@digidem/mapbox-map-image-stream",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Create an image stream from a mapbox map",
   "main": "index.js",
   "scripts": {
