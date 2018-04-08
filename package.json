@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdirp dist && browserify index.js -o dist/mapbox-map-image-stream.js"
+    "build": "mkdirp dist && browserify index.js -o dist/map-image-stream.js --standalone mapImageStream",
+    "prepublish": "npm run build"
   },
   "author": "Gregor MacLennan",
   "license": "MIT",
