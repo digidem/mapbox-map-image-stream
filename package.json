@@ -1,0 +1,40 @@
+{
+  "name": "@digidem/mapbox-map-image-stream",
+  "version": "1.0.0",
+  "description": "Create an image stream from a mapbox map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdirp dist && browserify index.js -o dist/mapbox-map-image-stream.js"
+  },
+  "author": "Gregor MacLennan",
+  "license": "MIT",
+  "dependencies": {
+    "decimal.js": "^10.0.0",
+    "gl-fbo": "^2.0.5",
+    "gl-pixel-stream": "^1.2.0",
+    "js-quantities": "^1.7.2",
+    "mapbox-gl": "^0.44.2",
+    "mosaic-image-stream": "^1.0.2",
+    "once": "^1.4.0",
+    "png-stream": "^1.0.5",
+    "pumpify": "^1.4.0",
+    "through2": "^2.0.3",
+    "through2-spy": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "mkdirp": "^0.5.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digidem/mapbox-map-image-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digidem/mapbox-map-image-stream/issues"
+  },
+  "homepage": "https://github.com/digidem/mapbox-map-image-stream#readme"
+}
